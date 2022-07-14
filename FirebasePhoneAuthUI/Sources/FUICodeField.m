@@ -17,9 +17,9 @@
 #import "FirebasePhoneAuthUI/Sources/FUICodeField.h"
 
 #if SWIFT_PACKAGE
-#import <FirebaseAuthUI/FirebaseAuthUI.h>
+@import FirebaseAuthUI;
 #else
-#import <FirebaseAuthUI/FirebaseAuthUI.h>
+@import FirebaseAuthUI;
 #endif
 
 NS_ASSUME_NONNULL_BEGIN

@@ -21,7 +21,7 @@
 #import <FirebaseAuth/FirebaseAuth.h>
 #import <GoogleUtilities/GULUserDefaults.h>
 
-#import <FirebaseAuthUI/FirebaseAuthUI.h>
+@import FirebaseAuthUI;
 
 #import "FirebaseEmailAuthUI/Sources/Public/FirebaseEmailAuthUI/FUIConfirmEmailViewController.h"
 #import "FirebaseEmailAuthUI/Sources/FUIEmailAuthStrings.h"

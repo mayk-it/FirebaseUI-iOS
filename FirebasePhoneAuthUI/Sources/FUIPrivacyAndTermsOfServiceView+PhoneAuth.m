@@ -16,7 +16,7 @@
 
 #import "FirebasePhoneAuthUI/Sources/FUIPrivacyAndTermsOfServiceView+PhoneAuth.h"
 
-#import <FirebaseAuthUI/FirebaseAuthUI.h>
+@import FirebaseAuthUI;
 
 #import "FirebasePhoneAuthUI/Sources/FUIPhoneAuthStrings.h"
 
